@@ -5,7 +5,7 @@
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-starter-parent</artifactId>
         <version>2.7.2</version>
-        <relativePath /> <!-- lookup parent from repository -->
+        <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>org.owasp</groupId>
     <artifactId>wrongsecrets</artifactId>
@@ -54,7 +54,7 @@
         <thymeleaf.layout>3.1.0</thymeleaf.layout>
         <asciidoctor.maven.plugin.version>2.2.2</asciidoctor.maven.plugin.version>
         <azure.keyvault.version>4.4.4</azure.keyvault.version>
-        <azure.identity.version>1.5.3</azure.identity.version>
+        <azure.identity.version>1.12.2</azure.identity.version>
         <azure.keyvault.spring.version>2.3.5</azure.keyvault.spring.version>
         <spring.security.version>5.7.2</spring.security.version>
         <cyclonedx.core.version>7.2.0</cyclonedx.core.version>
@@ -252,7 +252,7 @@
                 </os>
             </activation>
             <properties>
-                <script.extension />
+                <script.extension/>
             </properties>
         </profile>
     </profiles>
