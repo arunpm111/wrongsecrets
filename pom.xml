@@ -60,7 +60,7 @@
         <cyclonedx.core.version>11.0.1</cyclonedx.core.version>
         <KeePassJava2.version>2.1.4</KeePassJava2.version>
         <system-stubs-jupiter.version>2.0.1</system-stubs-jupiter.version>
-        <dependency-check-maven.version>7.0.4</dependency-check-maven.version>
+        <dependency-check-maven.version>9.0.0</dependency-check-maven.version>
     </properties>
 
     <dependencies>
@@ -208,7 +208,7 @@
         <dependency>
             <groupId>com.h2database</groupId>
             <artifactId>h2</artifactId>
-            <version>2.1.214</version>
+            <version>2.2.220</version>
         </dependency>
     </dependencies>
 
